@@ -1,3 +1,3 @@
 # YSH PR Update
 
-CSS got so much better!
+HTML & CSS so much fun!
