@@ -1,28 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome to SHtalk</title>
+    <title>Welcome to SaHatalk</title>
   </head>
   <body>
-    <div class="start-bar">
-      <div class="start-bar__column">
+    <div class="status-bar">
+      <div class="status-bar__column">
         <span>No Service</span>
-        <i class="fas fa-wifi"></i>
+        <i class="fa-solid fa-wifi"></i>
       </div>
-      <div class="start-bar__column">
+      <div class="status-bar__column">
         <span>18:43</span>
       </div>
-      <div class="start-bar__column">
+      <div class="status-bar__column">
         <span>110%</span>
         <i class="fas fa-battery-full"></i>
         <i class="fas fa-bolt"></i>
       </div>
     </div>
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Welcome to Sahatalk</h1>
+      <p class="welcome-header__text">
+        If you have a Saha talk Account, log in with your email or phone number.
+      </p>
+    </header>
+    <form id="login-form">
+      <input type="text" placeholder="Email or phone number" />
+      <input type="password" placeholder="Password" />
+      <input type="submit" value="Log In" />
+      <a style="color: gray" href="#">Find Saha Account or password</a>
+    </form>
     <script
-      src="https://kit.fontawesome.com/6478f529f2.js"
+      src="https://kit.fontawesome.com/1e99c35a56.js"
       crossorigin="anonymous"
     ></script>
   </body>
