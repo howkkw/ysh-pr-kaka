@@ -1,5 +1,5 @@
 .welcome-header {
-    margin: 93px 0px;
+    margin: 0px 0px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -10,11 +10,13 @@
 .welcome-header__title{
     margin-bottom: 20px;
     font-size: 25px;
+    margin-top: 93px;
 }
 
 .welcome-header__text {
     width: 60%;
-    opacity: 0.7;
+    color: rgba(0, 0, 0, 0.4);
+    padding-bottom: 93px;
 }
 
 #login-form {
