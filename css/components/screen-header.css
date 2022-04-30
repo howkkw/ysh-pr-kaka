@@ -2,8 +2,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding : 40px 25px 25px 25px;
-    opacity: 90%;
+    padding : 50px 25px 25px 25px;
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: white;
+    top:0;
 }
 
 .screen-header__title {
