@@ -1,9 +1,20 @@
-.user-component,
-.user-component__column:first-child {
+.user-component{
+    justify-content: space-between;
     display: flex;
-    padding-top: 85px;
-    align-items: center;
+}
 
+.user-component-my__column:first-child{
+    display: flex;
+    padding-top: 160px;
+    align-items: center;
+}
+.user-component-delfault__column{
+    display: flex;
+    align-items: center;
+}
+.user-component__column{
+    align-items: center;
+    display: flex;
 }
 
 .user-component__avata{
@@ -22,4 +33,21 @@
     margin-top: 8px;
     font-size: 17px;
     color: rgba(0, 0, 0, 0.5);
+}
+
+.user-component__avata--xl{
+    width: 80px;
+    height: 80px;
+}
+
+
+.user-component__avata--sm {
+    width: 60px;
+    height: 60px;
+    border-radius: 25px;
+}
+
+.user-component__title--not-bold {
+    font-weight: 400;
+    font-size: 20px;
 }
