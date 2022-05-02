@@ -3,12 +3,12 @@
     display: flex;
 }
 
-.user-component-my__column:first-child{
+.user-component-default__column:first-child{
     display: flex;
     padding-top: 160px;
     align-items: center;
 }
-.user-component-delfault__column{
+.user-component-friends__column{
     display: flex;
     align-items: center;
 }
@@ -50,4 +50,9 @@
 .user-component__title--not-bold {
     font-weight: 400;
     font-size: 20px;
+}
+
+
+.user-component-friends__column:last-child{
+    color: rgba(0, 0, 0, 0.5);
 }
