@@ -3,7 +3,7 @@
     display: flex;
 }
 
-.user-component-default__column:first-child{
+.user-component-default__column{
     display: flex;
     padding-top: 160px;
     align-items: center;
@@ -56,3 +56,12 @@
 .user-component-friends__column:last-child{
     color: rgba(0, 0, 0, 0.5);
 }
+
+.user-component-more__column{
+    display: flex;
+    padding-top: 110px;
+    align-items: center;
+}
+
+
+
