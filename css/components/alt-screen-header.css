@@ -1,0 +1,45 @@
+.alt-header{
+    top: 40px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    padding: 0px var(--horizontal-space);
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.alt-header-title{
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.setting-list{
+    margin-top: 120px;
+    border-bottom: var(--main-border);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.settings__setting{
+    padding-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.settings__setting i {
+    margin-right: 12px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.settings__setting span{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.setting__setting-column:last-child{
+    color: var(--weak-font-color);
+}
+
