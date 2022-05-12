@@ -1,5 +1,5 @@
 .alt-header{
-    top: 40px;
+    top: 0;
     position: fixed;
     display: flex;
     align-items: center;
@@ -7,39 +7,25 @@
     justify-content: space-between;
     width: 100%;
     box-sizing: border-box;
+    z-index: 1;
+    padding-top: 40px;
 }
 
 .alt-header-title{
     font-weight: 600;
     font-size: 25px;
+    text-align: center;
+
 }
 
-.setting-list{
-    margin-top: 120px;
-    border-bottom: var(--main-border);
+.alt-header__column{
+    width: 33%;
+}
+.alt-header__column:last-child span:not(first-child) {
+    margin-left: 20px;
+}
+
+.alt-header__column:last-child{
+    justify-content: flex-end;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
-
-.settings__setting{
-    padding-bottom: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-
-.settings__setting i {
-    margin-right: 12px;
-    color: rgba(0, 0, 0, 0.7);
-}
-.settings__setting span{
-    font-size: 16px;
-    font-weight: 600;
-}
-
-.setting__setting-column:last-child{
-    color: var(--weak-font-color);
-}
-
