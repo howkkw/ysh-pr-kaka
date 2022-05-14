@@ -17,10 +17,24 @@
     justify-content: space-around;
 }
 
+@keyframes notificationAnimation{
+    0%{
+        transform: none;
+
+    }
+    50%{
+        transform: translateY(-6px);
+    }
+    100%{
+        transform: none;
+    }
+}
+
 .nav__notification{
     position: absolute;
     bottom: 16px;
     left: 19px;
+    animation: notificationAnimation 2s ease-in-out infinite;
 
 }
 
@@ -30,3 +44,30 @@
     bottom: 26px;
 }
 
+
+
+@keyframes appearBtnAnimation {
+    from{
+        
+        opacity: 0;
+    }
+    to{
+        transform: none;
+        opacity: 1;
+    }
+
+}
+.nav__btn{
+    transform: translateY(30px);
+    opacity: 0;
+    animation: appearBtnAnimation 1s ease-in-out forwards;
+}
+.nav__btn:nth-child(2){
+    animation-delay: 0.2s;
+}
+.nav__btn:nth-child(3){    
+    animation-delay: 0.4s;
+}
+.nav__btn:last-child{
+    animation-delay: 0.6s;
+}
